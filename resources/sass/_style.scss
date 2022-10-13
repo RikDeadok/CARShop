@@ -1,0 +1,48 @@
+.h-fix {
+    max-height: 30em;
+    object-fit: cover;
+}
+.bg-garage {
+    background: url("../img/garage1.jpg");
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.point {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+}
+#dvs {
+    position: absolute;
+    top: 410px;
+    left: 950px;
+    cursor: pointer;
+}
+.no-photo {
+    padding: 0;
+    height: 15.5em;
+    background: url("../img/no-image.jpg");
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.no-photo-large {
+    padding: 0;
+    height: 32em;
+    background: url("../img/no-image.jpg");
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.no-photo-small {
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    background: url("../img/no-image.jpg");
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.icon {
+    margin-top: -0.2em;
+    height: 1em;
+    width: 1em;
+}
